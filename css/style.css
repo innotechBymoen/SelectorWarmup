@@ -1,0 +1,19 @@
+#random-image {
+    filter: grayscale(100%) blur(2px);
+}
+
+#random-image:active {
+    width: 500px;
+}
+
+.title-text {
+    text-shadow: 2px 2px 4px gray;
+}
+
+h1~p {
+    box-shadow: 3px 3px 6px gray;
+}
+
+h1:hover {
+    background-color: rgba(202, 155, 233, 0.603);
+}
